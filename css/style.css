@@ -1,7 +1,1 @@
-h1 {
-  color: red;
-}
-
-h1:hover {
-  color: blue;
-}
+@charset "UTF-8";footer,h1{background:url(../images/base1.jpg) repeat-x;height:130px;margin:0}@font-face{font-family:Montserrat;font-style:normal;font-weight:700;src:local('Montserrat-Bold'),url(https://fonts.gstatic.com/s/montserrat/v7/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype')}body{font-family:'游ゴシック体','Yu Gothic',YuGothic,'ヒラギノ角ゴシック Pro','Hiragino Kaku Gothic Pro',メイリオ,Meiryo,Osaka,'ＭＳ Ｐゴシック','MS PGothic',sans-serif}h1 img{margin:auto;display:flex;justify:center}h1{background-size:contain}nav{margin-top:130px}h2{color:#ff0;text-align:center}#bio{background-image:url(../images/bio3_03.jpg);border:1px solid #ff0;border-radius:10px}footer{background-size:cover;padding:100px 0}footer hr.small{width:100%}
