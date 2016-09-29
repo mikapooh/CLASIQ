@@ -1,1 +1,184 @@
-@charset "UTF-8";footer,h1{background:url(../images/base1.jpg) repeat-x;height:130px;margin:0}@font-face{font-family:Montserrat;font-style:normal;font-weight:700;src:local('Montserrat-Bold'),url(https://fonts.gstatic.com/s/montserrat/v7/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype')}body{font-family:'游ゴシック体','Yu Gothic',YuGothic,'ヒラギノ角ゴシック Pro','Hiragino Kaku Gothic Pro',メイリオ,Meiryo,Osaka,'ＭＳ Ｐゴシック','MS PGothic',sans-serif}h1 img{margin:auto;display:flex;justify:center}h1{background-size:contain}nav{margin-top:130px}h2{color:#ff0;text-align:center}#bio{background-image:url(../images/bio3_03.jpg);border:1px solid #ff0;border-radius:10px}footer{background-size:cover;padding:100px 0}footer hr.small{width:100%}
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Montserrat:700';
+/* base */
+body {
+  font-family: '游ゴシック体', 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+h1 img {
+  margin: auto;
+  display: flex;
+  justify: center;
+}
+
+h1 {
+  background: url("../images/base1.jpg") 0 0 repeat-x;
+  background-size: contain;
+  height: 130px;
+  margin: 0px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+.navbar-nav > li > a {
+  color: #FF63ED;
+  font-size: 11px;
+  font-weight: bold;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.navbar-nav > li > a:hover {
+  color: #49077F;
+}
+
+h2 {
+  color: #DBD702;
+  font-size: 35px;
+  text-align: center;
+  border-bottom: 1.5px dotted #49077F;
+}
+
+h3 {
+  background-color: black;
+  color: #FF63ED;
+  font-size: 30px;
+  text-align: center;
+}
+
+h4 {
+  color: #DBD702;
+  font-size: 20px;
+  text-align: center;
+}
+
+.icon {
+  color: #FF63ED !important;
+  border: 1px dotted #FF63ED;
+  font-size: 15px;
+  text-align: center;
+  background-color: #49077F;
+  opacity: 0.7;
+}
+
+.icon:hover {
+  color: #D5C9FF;
+}
+
+/* news */
+#news {
+  border: 1px solid #FF63ED;
+  border-radius: 5px;
+}
+
+#newslist {
+  background: radial-gradient(#49077F, black);
+  color: #D5C9FF;
+  font-size: 14px;
+  position: relative;
+  padding: 0px;
+  height: 100px;
+  overflow-y: scroll;
+}
+
+#newslist > ul > li {
+  list-style-type: none;
+  border-bottom: 1px dotted #D5C9FF;
+}
+
+#event {
+  color: #DBD702;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* biography*/
+#bio {
+  background-image: url("../images/bio3_03.jpg");
+  border: 1px solid #49077F;
+  border-radius: 5px;
+}
+
+#bio #bioimg {
+  border-style: inset;
+  border-radius: 3px;
+  height: 400px;
+  width: 525px;
+  margin: 0 10px 0 5px;
+  padding: 0;
+  display: flex;
+  justify: center;
+}
+
+#bio #biotext {
+  background-color: black;
+  color: #D5C9FF;
+  font-size: 18px;
+}
+
+#member {
+  background-color: #49077F;
+  color: #FF63ED;
+  opacity: 0.7;
+  font-size: 20px;
+  text-align: center;
+}
+
+.media > .media-body p {
+  background-color: #49077F;
+  color: #FF63ED;
+  opacity: 0.7;
+  font-size: 12px;
+  text-align: center;
+}
+
+.media > .media-body > .icon a {
+  color: #FF63ED;
+}
+
+.media > .media-body > .icon a:hover {
+  color: #D5C9FF;
+}
+
+#gallery {
+  border: 1px solid #FF63ED;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#gallery .icon {
+  height: 20px;
+  padding-bottom: 27px;
+  font-size: 7px;
+}
+
+#gallery .icon a {
+  color: #FF63ED !important;
+  font-size: 20px;
+}
+
+#gallery .icon a:hover {
+  color: #D5C9FF;
+}
+
+#gallery .icon a i.fa {
+  color: #FF63ED;
+}
+
+.form {
+  background-color: #49077F;
+  color: #FF63ED;
+  opacity: 0.7;
+  font-size: 12px;
+}
+
+form {
+  /* To see the outline of the form */
+  width: 150px;
+  max-width: 200px;
+  padding: 1px;
+}
