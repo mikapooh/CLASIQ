@@ -79,7 +79,6 @@ h4 {
   background: radial-gradient(#49077F, black);
   color: #D5C9FF;
   font-size: 14px;
-  opacity: 0.7;
   position: relative;
   padding: 0px;
   height: 100px;
@@ -108,8 +107,8 @@ h4 {
   border-style: inset;
   border-radius: 3px;
   height: 400px;
-  width: 550px;
-  margin:auto;
+  width: 525px;
+  margin: 0 10px 0 5px;
   padding: 0;
   display: flex;
   justify: center;
@@ -125,7 +124,7 @@ h4 {
   background-color: #49077F;
   color: #FF63ED;
   opacity: 0.7;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -133,7 +132,7 @@ h4 {
   background-color: #49077F;
   color: #FF63ED;
   opacity: 0.7;
-  font-size: 16px;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -154,7 +153,7 @@ h4 {
 #gallery .icon {
   height: 20px;
   padding-bottom: 27px;
-  font-size: 10px;
+  font-size: 7px;
 }
 
 #gallery .icon a {
@@ -169,45 +168,17 @@ h4 {
 #gallery .icon a i.fa {
   color: #FF63ED;
 }
-#contact{
-  border: 1px solid #FF63ED;
-  border-radius: 5px;
-  padding: 5px;
-}
+
 .form {
   background-color: #49077F;
   color: #FF63ED;
   opacity: 0.7;
   font-size: 12px;
-  padding: 5px 10px;
 }
 
 form {
   /* To see the outline of the form */
   width: 150px;
   max-width: 200px;
+  padding: 1px;
 }
-input,textarea{
-  width: 165px;
-  margin:auto;
-  padding: 0;
-  display: flex;
-  justify: center;
-}
-textarea{
-  margin-bottom:10px;
-}
-.button{
-  width: 55px;
-  margin:auto;
-  padding:0;
-  display: flex;
-  justify: center;
-  color: #FF63ED;
-  border-style: inset;
-  border-radius: 3px;
-}
-
-.button:hover{
-   color:#49077F;
-  }
