@@ -198,8 +198,8 @@ h4 {
   background-image: url(../images/back.jpg);
 }
 
-#bio {
-  background-image: url("../images/bio3_03.jpg");
+#bio{
+  background: url("../images/bio3_03.jpg") ;
   border: 1px solid #49077F;
   border-radius: 5px;
 }
